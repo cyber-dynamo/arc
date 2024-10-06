@@ -9,17 +9,15 @@ const Details = () => {
   const router = useRouter();
   const { id } = router.query; 
   const [site, setSite] = useState(true);
-  const [condition, setCondition] = useState(null); // Initialize condition state
+  const [condition, setCondition] = useState(null); 
 
   useEffect(() => {
+    const id = localStorage.getItem('selectedConditionId');
     if (id) {
-      // Find the condition based on the ID
-      const foundCondition = conditions.find((cond) => cond.id === parseInt(id));
-      if (foundCondition) {
-        setCondition(foundCondition); // Use the setter function to update the condition state
-      }
+      const foundCondition = conditions.find((condition) => condition.id === parseInt(id));
+      setCondition(foundCondition);
     }
-  }, [id]);
+  }, []);
 
   const handleClick = () => {
     setSite(prevSite => !prevSite);

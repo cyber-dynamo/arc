@@ -18,7 +18,8 @@
       }
     };
     const handleConditionClick = (id) => {
-      window.open(`/prescribe/details?id=${id}`, '_blank');
+      localStorage.setItem('selectedConditionId', id);
+      window.open(`/prescribe/details`, '_blank');
     };
 
     return (
