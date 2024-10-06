@@ -4,7 +4,7 @@ import {useRouter} from 'next/router.js'
 
  const Layout=({ children })=> {
   const router = useRouter()
-  if (router.pathname != "/esupply" && router.pathname != "/adapt" &&router.pathname != "/form" &&router.pathname != "/prescribe/[id]")
+  if (router.pathname != "/esupply" && router.pathname != "/adapt" &&router.pathname != "/form" &&router.pathname != "/prescribe/details")
   return (
       <div className='background'>
         <NavBar/>
