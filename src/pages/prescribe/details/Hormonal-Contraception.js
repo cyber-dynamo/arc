@@ -1,28 +1,14 @@
 import Head from "next/head";
-import conditions from '../../components/data/conditions';
-import { useRouter } from "next/router";
-import { useState, useEffect } from 'react';
-import CurrentDate from '../../components/date';
+import { useState} from 'react';
+import CurrentDate from '../../../components/date';
 import { MdPhp } from "react-icons/md";
 
 const Details = () => {
-  const router = useRouter();
-  const { id } = router.query; 
   const [site, setSite] = useState(true);
-  const [condition, setCondition] = useState(null); 
-
-  useEffect(() => {
-    const id = localStorage.getItem('selectedConditionId');
-    if (id) {
-      const foundCondition = conditions.find((condition) => condition.id === parseInt(id));
-      setCondition(foundCondition);
-    }
-  }, []);
-
+ 
   const handleClick = () => {
     setSite(prevSite => !prevSite);
   };
-
   return (
     <div>
       <Head>
@@ -67,7 +53,7 @@ const Details = () => {
                 <textarea
                   className='forminput border border-gray-400 p-2 rounded-md'
                   style={{ width: '100%', height: '30px' }}
-                  defaultValue={condition ? condition.condition : ''}
+                  defaultValue={"Hormonal Contraception"}
                 />
               </td>
             </tr>
@@ -81,7 +67,7 @@ const Details = () => {
                 <textarea
                   className='forminput border border-gray-400 p-2 rounded-md'
                   style={{ resize: 'none', width: '100%', minHeight: '200px', height: 'auto' }}
-                  defaultValue={condition ? condition.assessment : ''}
+                  defaultValue={"Patient is at risk of unwanted pregnancy secondary to regular sexual activities. The patient has menarche at the young age of around 12 and no history of undiagnosed vaginal bleeding. Patient appeared to be mildly concerned. Patient is over 12 yo and has no history of smoking, cardiovascular diseases, migraine with aura, angina, dyslipidemia, diabetes with microvascular complications, breast cancer, liver diseases and stroke. Her blood pressure is at 120/80mmHg*****. Patient stands at around 5 foot 5 and weighs around 130 pounds. Hence, her BMI *******should be under 30 kg/m2.Hence, urgent referral or pregnancy tests are not required. Patient is currently on NO RELATED MEDICATIONS. Kidney or liver issues are also unremarkable. Patient reports having NO ALLERGIES to any medications. Patient has NO absolute contraindication of being a smoker over 35 years old with migraine."}
                 />
               </td>
             </tr>
@@ -96,7 +82,7 @@ const Details = () => {
                 <textarea
                   className='forminput border border-gray-400 p-2 rounded-md'
                   style={{ resize: 'none', width: '100%', minHeight: '200px', height: 'auto' }}
-                  defaultValue={condition ? condition.recommend : ''}
+                  defaultValue={"Patient is counseled about the use of copper IUD and the risk of sexually transmitted diseases. Alesse 28 One tablet daily is prescribed as contraception. Medical intervention is necessary to prevent unwanted pregnancy. The effectiveness of the prescription is supported by evidence as per RxTx, medsask and BC guidelines. The prescription is safe for the patient as the dosage is within the therapeutic range as per RxTx and the patient is not allergic to it. There are also no signs of contraindication. Adherence should not be an issue as the patient is young and aware."}
                 />
               </td>
             </tr>
@@ -108,7 +94,7 @@ const Details = () => {
                 <textarea
                   className='forminput border border-gray-400 p-2 rounded-md'
                   style={{ resize: 'none', width: '100%', minHeight: '100px', height: 'auto' }}
-                  defaultValue={condition ? condition.monitor : ''}
+                  defaultValue={"Patient is counseled on the importance of adherence and missed dose protocol of not doubling up. Patient was instructed to monitor for the severe adverse effects of the medication, including Abdominal pain (severe), Chest pain with shortness of breath, Headaches (sudden and severe), Eye issues (blurred vision), Severe leg pain, with which she should discontinue the medication immediately and seek medical assistance."}
                 />
               </td>
             </tr>
