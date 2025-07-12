@@ -9,6 +9,9 @@ const Details = () => {
   const handleClick = () => {
     setSite(prevSite => !prevSite);
   };
+
+  const [copied, setCopied] = useState(false);
+
   const handleCopy = (text) => {
     navigator.clipboard.writeText(text);
     setCopied(true);
