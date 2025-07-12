@@ -51,11 +51,9 @@ const Details = () => {
             </tr>
             <tr className='formtitle'>
               <td colSpan={7}>
-                <textarea
-                  className='forminput border border-gray-400 p-2 rounded-md'
-                  style={{ width: '100%', height: '30px' }}
-                  defaultValue={"Allergic Conjunctivitis"}
-                />
+                <button
+                  onClick={() => handleCopy(98890009)}
+                >Allergic Conjunctivitis</button>
               </td>
             </tr>
             <tr className='flex items-center justify-between '>
