@@ -9,7 +9,13 @@ const Details = () => {
   const handleClick = () => {
     setSite(prevSite => !prevSite);
   };
-
+  const handleCopy = async (text) => {
+    try {
+      await navigator.clipboard.writeText(text.toString());
+    } catch (err) {
+      console.error('Failed to copy: ', err);
+    }
+  };
   return (
     <div>
       <Head>
