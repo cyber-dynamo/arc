@@ -2,7 +2,7 @@ import { useState } from 'react';
 import CurrentDate from '../components/date';
 
 export default function Form() {
-  const [chill, setChill] = useState(false);
+  const [chill, setChill] = useState(true);
 
   const Click = () => {
     setChill(prevChill => !prevChill);

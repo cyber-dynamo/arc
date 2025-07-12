@@ -54,7 +54,7 @@ const Details = () => {
                 <textarea
                   className='forminput border border-gray-400 p-2 rounded-md'
                   style={{ width: '100%', height: '30px' }}
-                  defaultValue={"Conjunctivitis"}
+                  defaultValue={"Allergic Conjunctivitis"}
                 />
               </td>
             </tr>
@@ -68,7 +68,7 @@ const Details = () => {
                 <textarea
                   className='forminput border border-gray-400 p-2 rounded-md'
                   style={{ resize: 'none', width: '100%', minHeight: '200px', height: 'auto' }}
-                  defaultValue={"Patient is experiencing redness of the eye(s), itching, swelling, WITH**** discharge since a couple days ago. The symptoms align with that of conjunctivitis. This has happened before in the past prior to this episode and usually lasted for about a week. Patient is not a contact lens wearer and has no history of ocular diseases. Photophobia, facial vesicles, irregular pupils, corneal opacities, pain, headaches and nausea were all absent. There were no reports of head trauma. Hence, urgent referral is not required. So far, the patient has not attempted any medications but has tried over the counter eye drops in the previous episode with moderate success. It is reported that dust and pollen can worsen the symptoms and resting alleviates them. Patient is currently on NO MEDICATIONS. Kidney or liver issues are also unremarkable. Patient is not pregnant and reports to have NO ALLERGIES to any medications."}
+                  defaultValue={"Patient is experiencing redness of the eye(s), itching, swelling, WITHOUT discharge since a couple days ago. The symptoms align with that of allergic conjunctivitis. This has happened before in the past prior to this episode and usually lasted for about a week. Patient is not a contact lens wearer and has no history of ocular diseases. Photophobia, facial vesicles, irregular pupils, corneal opacities, pain, headaches and nausea were all absent. There were no reports of head trauma. Hence, urgent referral is not required. So far, the patient has not attempted any medications but has tried over the counter eye drops in the previous episode with moderate success. It is reported that dust and pollen can worsen the symptoms and resting alleviates them. Patient is currently on NO RELATED MEDICATIONS. Kidney or liver issues are also unremarkable. Patient is not pregnant and reports to have NO ALLERGIES to any medications."}
                 />
               </td>
             </tr>
@@ -83,7 +83,7 @@ const Details = () => {
                 <textarea
                   className='forminput border border-gray-400 p-2 rounded-md'
                   style={{ resize: 'none', width: '100%', minHeight: '200px', height: 'auto' }}
-                  defaultValue={"Patient was counseled to follow proper handwashing guidelines, avoid hand to eye contact, avoid sharing towels and avoid or discontinue contact lens use. Warm and cold compress was suggested to help with crusts and swelling. TOBREX 1 DROP TID FOR 5 DAYS was prescribed to help alleviate the symptoms. Medical intervention is necessary to alleviate the symptoms as other non-pharmacological interventions have failed. The effectiveness of the prescription is supported by evidence as per RxTx, medsask and BC guidelines. The prescription is safe for the patient as the dosage is within the therapeutic range as per RxTx and the patient is not allergic to it. Adherence should not be an issue as the patient is young and aware. There are also family members in case a reminder is needed."}
+                  defaultValue={"Patient was counseled to avoid potential allergens, follow proper handwashing guidelines, avoid hand to eye contact, avoid sharing towels and avoid or discontinue contact lens use. Warm and cold compress was suggested to help with crusts and swelling. Olopatadine 0.1% 1 drop into each eye bid prn  was prescribed to help alleviate the symptoms. Medical intervention is necessary to alleviate the symptoms as other non-pharmacological interventions have failed. The effectiveness of the prescription is supported by evidence as per RxTx, medsask and BC guidelines. The prescription is safe for the patient as the dosage is within the therapeutic range as per RxTx and the patient is not allergic to it. Adherence should not be an issue as the patient is young and aware. There are also family members in case a reminder is needed. "}
                 />
               </td>
             </tr>
