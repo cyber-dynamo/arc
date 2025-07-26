@@ -22,7 +22,7 @@ const Details = () => {
       <div>
         <div className='formheader flex items-center justify-between'>
           <img 
-            src="/bchealth.png"
+            src="bchealth.png"
             alt="BC "
             className='formlogo'
             style={{ height: 'auto', maxHeight: '70px' }}
