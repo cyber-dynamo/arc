@@ -6,21 +6,21 @@ const Smokecess = () => {
   return (
     <div>
       <Head>
-        <title>Rx Hero | Smoke-Cess Form</title>
-        <meta name="keyword" content='Smoke-cess' />
+        <title>Rx Hero | SmokeCess Form</title>
+        <meta name="keyword" content='Smokecess' />
       </Head>
 
       <div>
         <div className='formheader flex items-center justify-between'>
           <img 
-            src="/bchealth.jpg"
-            alt="BC Ministry of Health"
+            src="/bchealth.png"
+            alt="BC "
             className='formlogo'
             style={{ height: 'auto', maxHeight: '70px' }}
           />
-          <h5>BC SMOKING CESSATION PROGRAM DECLARATION AND NOTIFICATION</h5>
+          <h5 className='font-bold'>BC SMOKING CESSATION PROGRAM DECLARATION AND NOTIFICATION</h5>
         </div>
-       <div className="content-center text-center">
+       <div className="text-xs font-bold content-center text-center">
         This form must be completed each time a patient is dispensed a nicotine replacement therapy (NRT) 
 product through the BC Smoking Cessation Program.
       </div>
@@ -49,7 +49,7 @@ product through the BC Smoking Cessation Program.
             </tr>
             <tr>
            <td colSpan="7" className='bg-black text-white'>
-           <h4>PATIENT DECLARATION</h4>
+           <h4 className='font-bold'>PATIENT DECLARATION</h4>
            </td>
            </tr> 
            <tr>
@@ -70,14 +70,13 @@ Services Act and that the pharmacy may be required to provide this information t
            </td>
            </tr>
            <br/>
-           <br/>
-            <tr>
+            <tr className='text-xs'>
               <td colSpan="1">print name of patient:</td>
               <td colSpan="3">signature of patient: </td>
               <td colSpan="3">Date of Signage:<CurrentDate /></td>
             </tr>
                        <td colSpan="7" className='bg-black text-white'>
-           <h4>PHARMACIST DECLARATION</h4>
+           <h4 className='font-bold'>PHARMACIST DECLARATION</h4>
            </td>
            <tr>
            <td colSpan="7" className='text-xs'>
@@ -94,6 +93,15 @@ planning.</p>
             </tr>
           </tbody>
         </table>
+        <div className='text-xs text-center'>Completed copies of this form must be retained on file in the pharmacy in accordance with recordkeeping requirements
+established in the Pharmaceutical Services Act and any relevant bylaws of the College of Pharmacists of British Columbia.</div>
+      </div>
+      <div className='text-xs'>
+        Personal information on this form is collected by the Ministry of Health under s.22 of the Pharmaceutical Services Act for the purpose of determining eligibility for
+PharmaCare’s Smoking Cessation Program (Plan S).
+If you have any questions about the collection of this personal information on this form, contact the Health Insurance BC (HIBC) Chief Privacy Officer at
+PO Box 9035 STN Prov Govt, Victoria BC V8W 9E3; or call 604 683-7151 (Vancouver) or 1 800 663-7100 (toll free).
+This information will be collected, used and disclosed in accordance with the Freedom of Information and Protection of Privacy Act and the Pharmaceutical Services Act
       </div>
     </div>
   );

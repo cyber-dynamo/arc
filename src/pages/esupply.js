@@ -52,7 +52,7 @@ export default function Form() {
             </tr>
             <tr>
               <td className="border px-4 py-1" colSpan={2}>
-                <textarea className="border border-gray-400 px-4 py-2 w-full" defaultValue={"Rationale: PharmaNet record indicates the patient has been stable on the same dosage. The patient confirms that the condition is monitored regularly. The patient confirms that follow-up with a physician is coming up in the near future. The most recent original prescription was at least within 3 months ago and hence is still valid. Emergency Supply is done for continuity of care"} style={{ resize: 'none', height: '120px' }}></textarea>
+                <textarea className=" text-xs border border-gray-400 px-4 py-2 w-full" defaultValue={"Rationale: PharmaNet record indicates the patient has been stable on the same dosage. The patient confirms that the condition is monitored regularly. The patient confirms that follow-up with a physician is coming up in the near future. The most recent original prescription was at least within 3 months ago and hence is still valid. Emergency Supply is done for continuity of care"} style={{ resize: 'none', height: '120px' }}></textarea>
               </td>
             </tr>
             <tr>
