@@ -458,5 +458,35 @@ export default[
      "id": 92,
      "input": "OZEMPIC*",
      "sig": "INJECT 1MG SUBCUTANEOUSLY WEEKLY 每星期皮下注射1微克"
+   }, 
+   {
+     "id": 93,
+     "input": "Moxifloxacin L",
+     "sig": "INSTIL ONE DROP INTO THE LEFT EYE DAILY. START 3 DAYS PRE-OP AND USE UNTIL 7 DAYS POST-OP 每日左眼一滴, 術前3天開始, 直到術後7天"
+   }, 
+   {
+     "id": 94,
+     "input": "MOXIFLOXACIN R",
+     "sig": "INSTIL ONE DROP INTO THE RIGHT EYE DAILY. START 3 DAYS PRE-OP AND USE UNTIL 7 DAYS POST-OP 每日右眼一滴, 術前3天開始, 直到術後7天"
+   }, 
+   {
+     "id": 95,
+     "input": "PROLENSA L",
+     "sig": "INSTIL ONE DROP INTO THE LEFT EYE DAILY. START 3 DAYS PRE-OP AND USE UNTIL 1 MONTH POST-OP 每日左眼一滴, 術前3天開始, 直到術後4週"
+   },
+   {
+     "id": 95,
+     "input": "PROLENSA R",
+     "sig": "INSTIL ONE DROP INTO THE RIGHT EYE DAILY. START 3 DAYS PRE-OP AND USE UNTIL 1 MONTH POST-OP 每日右眼一滴, 術前3天開始, 直到術後4週"
+   },
+   {
+     "id": 96,
+     "input": "PREDNISOLONE L",
+     "sig": "SHAKE WELL AND INSTIL ONE DROP INTO THE LEFT EYE 4 TIMES DAILY. START DAY OF OP AND USE UNTIL 4 WEEKS POST-OP 搖勻, 每日4次, 每次左眼1滴. 手術當天開始, 直至術後4週"
+   }, 
+   {
+     "id": 96,
+     "input": "PREDNISOLONE R",
+     "sig": "SHAKE WELL AND INSTIL ONE DROP INTO THE RIGHT EYE 4 TIMES DAILY. START DAY OF OP AND USE UNTIL 4 WEEKS POST-OP 搖勻, 每日4次, 每次右眼1滴. 手術當天開始, 直至術後4週"
    }
    ]

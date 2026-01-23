@@ -193,76 +193,83 @@ export default[
 		"drug" : "Gabapentin",
 		"conditions" : "Nerve Pain 神經痛藥",
 		"engsig" : "Monitor for dizziness, dry mouth, blurred vision and nausea.",
-		"chisig" : "頭暈, 口乾, 視力模糊, 作嘔\n"
+		"chisig" : "頭暈, 口乾, 視力模糊, 作嘔"
 	},
 	{
 		"id" : 29,
 		"drug" : "Ozempic",
 		"conditions" : "Diabetes 血糖藥",
-		"engsig" : "Monitor for nausea, reflux, diarrhea or constipation. \n",
-		"chisig" : "作嘔, 胃酸反流, 腹瀉, 便秘, 在皮下脂肪注射\n"
+		"engsig" : "Monitor for nausea, reflux, diarrhea or constipation.",
+		"chisig" : "作嘔, 胃酸反流, 腹瀉, 便秘, 在皮下脂肪注射"
 	},
 	{
 		"id" : 30,
 		"drug" : "Allergy pills",
 		"conditions" : "Allergy 敏感藥",
-		"engsig" : "Monitor for headaches, dry mouth and dizziness. \n",
-		"chisig" : "頭痛, 口乾, 頭暈\n"
+		"engsig" : "Monitor for headaches, dry mouth and dizziness.",
+		"chisig" : "頭痛, 口乾, 頭暈"
 	},
 	{
 		"id" : 31,
 		"drug" : "Spironolactone",
 		"conditions" : "Water pill (preserves Potassium) 去水留鉀藥",
-		"engsig" : "Monitor for dizziness, weakness, High Potassium level. Monitor for increased urination and rash. Take in the morning to reduce urination at bedtime and avoid prolonged exposure to the sun. \n",
-		"chisig" : "頭暈, 無力, 鉀高, 頻尿, 宜早上服用, 避免暴曬太陽 \n"
+		"engsig" : "Monitor for dizziness, weakness, High Potassium level. Monitor for increased urination and rash. Take in the morning to reduce urination at bedtime and avoid prolonged exposure to the sun.",
+		"chisig" : "頭暈, 無力, 鉀高, 頻尿, 宜早上服用, 避免暴曬太陽 "
 	},
 	{
 		"id" : 32,
 		"drug" : "Prednisone",
 		"conditions" : "Immunosuppresant 免疫系統失調藥",
-		"engsig" : "Monitor for stomach upset, insomnia, mood changes. Take with food and try to take in the morning. \n",
-		"chisig" : "作嘔, 失眠, 情緒不穩定. 宜飯後服用 \n"
+		"engsig" : "Monitor for stomach upset, insomnia, mood changes. Take with food and try to take in the morning.",
+		"chisig" : "作嘔, 失眠, 情緒不穩定. 宜飯後服用"
 	},
 	{
 		"id" : 33,
 		"drug" : "Eye drop",
 		"conditions" : "Dry eyes 眼藥水",
-		"engsig" : "Monitor for local irritations, burning, itching, redness. Discard within 30 days upon opening.\n",
-		"chisig" : "紅, 痕癢, 開瓶後三十天後要棄置\n"
+		"engsig" : "Monitor for local irritations, burning, itching, redness. Discard within 30 days upon opening.",
+		"chisig" : "紅, 痕癢, 開瓶後三十天後要棄置"
 	},
 	{
 		"id" : 34,
 		"drug" : "Digoxin",
 		"conditions" : "Heart Rhythm 心律藥",
-		"engsig" : "Monitor for dizziness, diarrhea and rash.\n",
-		"chisig" : "頭暈, 腹瀉, 皮膚過敏\n"
+		"engsig" : "Monitor for dizziness, diarrhea and rash.",
+		"chisig" : "頭暈, 腹瀉, 皮膚過敏"
 	},
 	{
 		"id" : 35,
 		"drug" : "Domperidone",
 		"conditions" : "Stomach Movement 胃動力藥",
-		"engsig" : "Monitor for tiredness, leg swelling and hot flashes.\n",
-		"chisig" : "疲累, 腳腫, 身體發熱, 飯前30分鐘前服用\n"
+		"engsig" : "Monitor for tiredness, leg swelling and hot flashes.",
+		"chisig" : "疲累, 腳腫, 身體發熱, 飯前30分鐘前服用"
 	},
 	{
 		"id" : 36,
 		"drug" : "Levodopa/Carbidopa",
 		"conditions" : "Parkinson's Disease 帕金森藥",
-		"engsig" : "Monitor for dizziness, loss of appetite, diarrhea, dry mouth, memory loss.\n",
-		"chisig" : "頭暈, 沒胃口, 腹瀉, 口乾, 記憶力衰退\n"
+		"engsig" : "Monitor for dizziness, loss of appetite, diarrhea, dry mouth, memory loss.",
+		"chisig" : "頭暈, 沒胃口, 腹瀉, 口乾, 記憶力衰退"
 	},
 	{
 		"id" : 37,
 		"drug" : "Donepezil",
 		"conditions" : "Alertness 聰明豆",
-		"engsig" : "Monitor for diarrhea, loss of appetite, muscle cramps, nausea, insomnia.\n",
-		"chisig" : " 腹瀉, 沒胃口, 口乾, 肌肉抽筋, 作嘔, 失眠\n"
+		"engsig" : "Monitor for diarrhea, loss of appetite, muscle cramps, nausea, insomnia.",
+		"chisig" : " 腹瀉, 沒胃口, 口乾, 肌肉抽筋, 作嘔, 失眠"
 	},
 	{
 		"id" : 38,
 		"drug" : "Betahistine",
 		"conditions" : "Vertigo 頭暈藥",
-		"engsig" : "Monitor for tiredness, stomach upset.\n",
-		"chisig" : " 疲累, 腸胃不適, 宜飯後服用\n"
+		"engsig" : "Monitor for tiredness, stomach upset.",
+		"chisig" : " 疲累, 腸胃不適, 宜飯後服用"
+	},
+	{
+		"id" : 39,
+		"drug" : "Tenofovir",
+		"conditions" : "Liver Protection 肝藥",
+		"engsig" : "Monitor for tiredness, stomach upset, backpain and insomnia.",
+		"chisig" : " 疲累, 腸胃不適, 背痛, 失眠"
 	}
 ]
