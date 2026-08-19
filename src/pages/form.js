@@ -14,7 +14,7 @@ export default function Form (){
         <div>
             <div className='formheader flex items-center justify-between'>
                 <img 
-                    src="/details/bchealth.png"
+                    src="bchealth.png"
                     alt="BC Ministry of Health"
                     className='formlogo'
                     style={{ height: 'auto', maxHeight: '70px' }}

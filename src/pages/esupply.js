@@ -10,6 +10,10 @@ export default function Form() {
 
   return (
     <div className="flex flex-wrap items-center">
+      <Head>
+        <title>Rx Hero|Esupply</title>
+        <meta name="keyword" content='ChiSig'/>
+      </Head>
       <div className="w-full sm:w-auto flex-grow">
         <div className='formheader flex items-center'>
           <h3 className="text-xl font-bold mr-auto">Emergency Supply Form</h3>
