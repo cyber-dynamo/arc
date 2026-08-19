@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Head from "next/head";
 import CurrentDate from '../components/date';
 
 export default function Form() {
@@ -12,7 +13,7 @@ export default function Form() {
     <div className="flex flex-wrap items-center">
       <Head>
         <title>Rx Hero|Esupply</title>
-        <meta name="keyword" content='ChiSig'/>
+        <meta name="keyword" content='Esupply'/>
       </Head>
       <div className="w-full sm:w-auto flex-grow">
         <div className='formheader flex items-center'>
